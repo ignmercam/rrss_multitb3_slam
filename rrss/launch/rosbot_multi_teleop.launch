@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+<arg name= "robot" default="tb3_0"/> 
+
+ <group ns = "$(arg robot)">
+    <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard"  output="screen">
+      <param name="scale_linear" value="1.0" type="double"/>
+      <param name="scale_angular" value="1.5" type="double"/>
+    </node>
+  </group>
+</launch>
+
