@@ -23,17 +23,19 @@ Create a new folder called "ros_workspace/src" by executing the following commen
     $ catkin_make
 
 
-
 ## Execution for Multirobot
-TERMINAL 1
-  $ roscore
+The program can be executed using the following comments in three different terminals:
 
-TERMINAL 2
-  $ source ~/ros_workspace/devel/setup.bash
-  $ export TURTLEBOT3_MODEL=waffle_pi
-  $ roslaunch rrss multiple_tb3_house.launch
+Terminal 1
 
-TERMINAL 3
-  $ source ~/ros_workspace/devel/setup.bash
-  $ export TURTLEBOT3_MODEL=waffle_pi
-  $ roslaunch rrss two_robots.launch
+     # roscore 
+Terminal 2
+
+     # source ~/ros_workspace/devel/setup.bash 
+     # export TURTLEBOT3_MODEL=waffle_pi
+     # roslaunch rrss multiple_tb3_house.launch 
+Terminal 3
+
+     # source ~/ros_workspace/devel/setup.bash
+     # export TURTLEBOT3_MODEL=waffle_pi
+     # roslaunch rrss two_robots.launch
