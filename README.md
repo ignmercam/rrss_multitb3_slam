@@ -9,4 +9,4 @@ $ roslaunch rrss multiple_tb3_house.launch
 TERMINAL 3
 $ source ~/ros_workspace/devel/setup.bash
 $ export TURTLEBOT3_MODEL=waffle_pi
-$ roslaunch rrss three_robots.launch
+$ roslaunch rrss two_robots.launch
