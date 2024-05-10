@@ -18,7 +18,7 @@ Create a new folder called "ros_workspace/src" by executing the following commen
 
     $ mkdir -p ~/ros_workspace/src
     $ cd ~/ros_workspace/src/
-    $ git clone https://github.com/ignmercam/RRSS_MULTIPLE_SLAM.git
+    $ git clone https://github.com/ignmercam/rrss_multitb3_slam.git
     $ cd ~/ros_workspace
     $ catkin_make
 
